@@ -45,9 +45,11 @@ BOOTのコールバックはApplication::Schedule経由で処理する。
 
 BOX版の参考資料として追加したもの。今回の旧型向けGPIO定義は変更していない。
 
-## ケースデータ
+## 基板データ
 
-[ESP32S3-1.28inch-BOX.step](../hardware/case/ESP32S3-1.28inch-BOX.step)を、
-ユーザー提供の原本のまま収録。ケースの寸法・対象個体への適合は未検証。
+STEP・DWGは筐体ではなく基板のデータ。
 
-[ESP32S3-1.28inch-BOX.DWG](../hardware/case/ESP32S3-1.28inch-BOX.DWG)も、ユーザー提供のケース資料として原本のまま収録。
+[ESP32S3-1.28inch-BOX.step](../hardware/board/ESP32S3-1.28inch-BOX.step)を、
+ユーザー提供の原本のまま収録。基板データの寸法・対象個体との一致は未検証。
+
+[ESP32S3-1.28inch-BOX.DWG](../hardware/board/ESP32S3-1.28inch-BOX.DWG)も、ユーザー提供の基板データとして原本のまま収録。

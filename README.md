@@ -30,8 +30,8 @@
 - [ハードウェアと流用元](docs/HARDWARE.md)
 - [参考回路図：旧型ESP32S3-1.28inch-AI (PDF)](hardware/schematics/ESP32S3-1.28inch-AI.pdf)
 - [参考回路図：ESP32S3-1.28inch-BOX (PDF)](hardware/schematics/ESP32S3-1.28inch-BOX.pdf)
-- [ケースデータ：ESP32S3-1.28inch-BOX (STEP)](hardware/case/ESP32S3-1.28inch-BOX.step)
-- [ケース資料：ESP32S3-1.28inch-BOX (DWG)](hardware/case/ESP32S3-1.28inch-BOX.DWG)
+- [基板データ：ESP32S3-1.28inch-BOX (STEP)](hardware/board/ESP32S3-1.28inch-BOX.step)
+- [基板データ：ESP32S3-1.28inch-BOX (DWG)](hardware/board/ESP32S3-1.28inch-BOX.DWG)
 - [再ビルド・書き込み手順](docs/BUILD.md)
 - [作業・実機検証記録](docs/VALIDATION.md)
 

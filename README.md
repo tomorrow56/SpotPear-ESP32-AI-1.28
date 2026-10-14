@@ -28,6 +28,7 @@
 - [分割イメージとflash_args](firmware/v2.5.0/)
 - [ビルド時設定・依存ロック](build-config/)
 - [ハードウェアと流用元](docs/HARDWARE.md)
+- [参考回路図：ESP32S3-1.28inch-BOX (PDF)](hardware/schematics/ESP32S3-1.28inch-BOX.pdf)
 - [再ビルド・書き込み手順](docs/BUILD.md)
 - [作業・実機検証記録](docs/VALIDATION.md)
 
@@ -39,6 +40,7 @@
 
 - [メーカー旧型ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-LCD.html)
 - [メーカーBOX・タッチスクリーン版ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-Round-LCD-BOX-TouchScreen.html)
+- [メーカーBOX版参考回路図（配布元PDF）](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-LCD-1.28-BOX-THIN/ESP32S3-1.28inch-BOX.pdf)
 - [Xiaozhi v2.5.0](https://github.com/78/xiaozhi-esp32/tree/v2.5.0)
 - boardソースは既存実装を基にしており、上流の[MIT License](LICENSE)を保持しています。
 - ファームウェアはESP-IDFと各依存コンポーネントも含みます。それぞれのライセンスは上流と[依存一覧](build-config/dependencies.lock)を参照してください。

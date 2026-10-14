@@ -37,3 +37,10 @@ BOOTのコールバックはApplication::Schedule経由で処理する。
 独立したboard名を使用するが、この独自board用の公式OTA配信を保証するものではない。
 メーカーガイドは旧型でOTA無効化を案内している。Box版など別機種向けFWを適用しない。
 コード上でOTAを強制無効化する変更は含まない。
+
+## 追加の参考回路図
+
+- [BOX版参考回路図 (PDF)](../hardware/schematics/ESP32S3-1.28inch-BOX.pdf)
+  — [メーカー配布元](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-LCD-1.28-BOX-THIN/ESP32S3-1.28inch-BOX.pdf)。
+
+BOX版の参考資料として追加したもの。今回の旧型向けGPIO定義は変更していない。

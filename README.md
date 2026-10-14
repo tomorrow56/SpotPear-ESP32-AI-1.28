@@ -35,9 +35,10 @@
 ファームウェアのビルド成功とスピーカー・マイク動作は確認済みですが、
 新型・ES8311搭載Box版への適用や全機能・長時間稼働を検証したものではありません。
 
-## 出典・ライセンス
+## 参考・ライセンス
 
 - [メーカー旧型ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-LCD.html)
+- [メーカーBOX・タッチスクリーン版ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-Round-LCD-BOX-TouchScreen.html)
 - [Xiaozhi v2.5.0](https://github.com/78/xiaozhi-esp32/tree/v2.5.0)
 - boardソースは既存実装を基にしており、上流の[MIT License](LICENSE)を保持しています。
 - ファームウェアはESP-IDFと各依存コンポーネントも含みます。それぞれのライセンスは上流と[依存一覧](build-config/dependencies.lock)を参照してください。

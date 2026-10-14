@@ -49,3 +49,5 @@ BOX版の参考資料として追加したもの。今回の旧型向けGPIO定�
 
 [ESP32S3-1.28inch-BOX.step](../hardware/case/ESP32S3-1.28inch-BOX.step)を、
 ユーザー提供の原本のまま収録。ケースの寸法・対象個体への適合は未検証。
+
+[ESP32S3-1.28inch-BOX.DWG](../hardware/case/ESP32S3-1.28inch-BOX.DWG)も、ユーザー提供のケース資料として原本のまま収録。

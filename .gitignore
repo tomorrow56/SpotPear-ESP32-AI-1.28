@@ -1,0 +1,11 @@
+# Local build state and macOS metadata
+.DS_Store
+._*
+build/
+managed_components/
+__pycache__/
+*.pyc
+# Device-specific data must never be published.
+device-backups/
+*backup*.bin
+*.elf

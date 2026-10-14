@@ -1,0 +1,11 @@
+{
+    "manufacturer": "spotpear",
+    "type": "spotpear-esp32-ai-1.28",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "spotpear-esp32-ai-1.28",
+            "sdkconfig_append": []
+        }
+    ]
+}

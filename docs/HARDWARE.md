@@ -4,7 +4,7 @@
 MAX98357AとNP0557の型番はユーザーの実機情報に基づく。
 
 メーカーの[旧型・脚なしモデル向けガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-LCD.html)と
-[2025-03-21付の回路図](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-1.28inch-AI/ESP32S3-1.28inch-AI.pdf)の端子配線を照合した。
+[2025-03-21付の回路図](../hardware/schematics/ESP32S3-1.28inch-AI.pdf)（[メーカー配布元](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-1.28inch-AI/ESP32S3-1.28inch-AI.pdf)）の端子配線を照合した。
 ページの回路図リンクの表示名は1.54inchだが、リンク先ファイルは1.28inch。
 新型・脚付きやES8311搭載Box版へは適用しない。
 
@@ -44,3 +44,8 @@ BOOTのコールバックはApplication::Schedule経由で処理する。
   — [メーカー配布元](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-LCD-1.28-BOX-THIN/ESP32S3-1.28inch-BOX.pdf)。
 
 BOX版の参考資料として追加したもの。今回の旧型向けGPIO定義は変更していない。
+
+## ケースデータ
+
+[ESP32S3-1.28inch-BOX.step](../hardware/case/ESP32S3-1.28inch-BOX.step)を、
+ユーザー提供の原本のまま収録。ケースの寸法・対象個体への適合は未検証。

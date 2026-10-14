@@ -28,7 +28,9 @@
 - [分割イメージとflash_args](firmware/v2.5.0/)
 - [ビルド時設定・依存ロック](build-config/)
 - [ハードウェアと流用元](docs/HARDWARE.md)
+- [参考回路図：旧型ESP32S3-1.28inch-AI (PDF)](hardware/schematics/ESP32S3-1.28inch-AI.pdf)
 - [参考回路図：ESP32S3-1.28inch-BOX (PDF)](hardware/schematics/ESP32S3-1.28inch-BOX.pdf)
+- [ケースデータ：ESP32S3-1.28inch-BOX (STEP)](hardware/case/ESP32S3-1.28inch-BOX.step)
 - [再ビルド・書き込み手順](docs/BUILD.md)
 - [作業・実機検証記録](docs/VALIDATION.md)
 
@@ -38,6 +40,7 @@
 
 ## 参考・ライセンス
 
+- [販売元へのリンク（AliExpress）](https://ja.aliexpress.com/item/1005008627679270.html)
 - [メーカー旧型ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-LCD.html)
 - [メーカーBOX・タッチスクリーン版ガイド](https://spotpear.com/wiki/ESP32-S3-N16R8-AI-DeepSeek-XiaoZhi-XiaGe-Qwen-DouBao-1.28-inch-Round-LCD-BOX-TouchScreen.html)
 - [メーカーBOX版参考回路図（配布元PDF）](https://cdn.static.spotpear.com/uploads/picture/learn/ESP32/ESP32-S3-LCD-1.28-BOX-THIN/ESP32S3-1.28inch-BOX.pdf)

@@ -1,0 +1,15 @@
+{
+  "upstream": "https://github.com/78/xiaozhi-esp32",
+  "tag": "v2.5.0",
+  "commit": "ac6deed3d8e75348475364bf40ad953c6cd48054",
+  "source_directory": "xiaozhi-esp32-v2.5.0",
+  "board": "spotpear/spotpear-esp32-ai-1.28",
+  "idf_tested": "v6.1",
+  "source_matches_built_project": true,
+  "differences_from_upstream": [
+    "main/CMakeLists.txt",
+    "main/Kconfig.projbuild",
+    "main/boards/spotpear/spotpear-esp32-ai-1.28/",
+    "dependencies.lock (resolved during build)"
+  ]
+}

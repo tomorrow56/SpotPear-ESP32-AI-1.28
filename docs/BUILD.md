@@ -17,7 +17,21 @@ cd esp-idf-v6.1
 idf.py --version
 ```
 
-## パッチ適用とビルド
+## 収録ソースからビルド
+
+ESP-IDF環境を有効化した後、本リポジトリだけを取得してビルドできる。
+専用boardの登録は済んでいるため、パッチの適用は不要。
+
+```sh
+git clone https://github.com/tomorrow56/SpotPear-ESP32-AI-1.28.git
+cd SpotPear-ESP32-AI-1.28/firmware-source/xiaozhi-esp32-v2.5.0
+python scripts/build.py spotpear/spotpear-esp32-ai-1.28 --name spotpear-esp32-ai-1.28
+```
+
+初回構成時に依存コンポーネントを取得する。ESP-IDF・コンパイラは別途導入する。
+生成物は上記ソースディレクトリ内のbuild/に出力される。
+
+## 上流ソースへパッチを適用してビルド（別の方法）
 
 ```sh
 git clone https://github.com/tomorrow56/SpotPear-ESP32-AI-1.28.git

@@ -7,7 +7,7 @@
 この個体では音声初期化失敗と再起動の原因になります。
 本実装は既存NoAudioCodecSimplexを再利用し、別クロックのI2S音声入出力を構成します。
 
-これは[Xiaozhi本体](https://github.com/78/xiaozhi-esp32)へ適用するboard追加用リポジトリです。
+[Xiaozhi本体](https://github.com/78/xiaozhi-esp32)のソース一式、専用board定義、適用用パッチを収録しています。
 対象タグはv2.5.0、ベースコミットは`ac6deed3d8e75348475364bf40ad953c6cd48054`。
 
 | 項目 | 内容 |
@@ -22,6 +22,7 @@
 
 ## 成果物
 
+- [ファームウェアのソース一式](firmware-source/) — パッチ適用済み、直接ビルド可能
 - [boardソース](main/boards/spotpear/spotpear-esp32-ai-1.28/)
 - [適用用パッチ](patches/spotpear-esp32-ai-1.28-v2.5.0.patch)
 - [統合ファームウェア](firmware/v2.5.0/merged-binary.bin) — 初回書き込み、アドレス0x0
